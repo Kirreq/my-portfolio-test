@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  background-color: #333333;
+}
+
+.header-wrapper {
+  position: fixed;
+  width: 100%;
+  padding: 16px 72px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  padding: 0px 8px;
+  background: rgb(51, 51, 51, 0.5);
+}
+
+.text-right h2,
+a {
+  margin: 0%;
+  color: #ffffff;
+  font-family: "Anek Bangla", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.titel {
+  margin: 0%;
+  color: #ffffff;
+  font-family: "Anek Bangla", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.text-right {
+  display: flex;
+  width: 421px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.hem-sida {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0px 169px;
+  height: 100vh;
+}
+
+.hem-sida h2 {
+  width: 60%;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 86.4px;
+  margin: 0;
+}
+
+.portfolio-span {
+  color: #ff8a00;
+  font-family: Anek Bangla;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 86.4px;
+}
+
+.hem-sida p {
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 40%;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  margin: 0;
+}
+
+.case1-wrapper {
+  background-color: #fff;
+}
+
+.case1-textleft-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-left: 15vw;
+}
+
+.case1-titel-text-button {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.case1-p-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.case1-titel {
+  align-self: stretch;
+  color: #333333;
+  font-family: Anek Bangla;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 86.4px;
+  margin: 0;
+}
+
+.case1-p {
+  color: #333333;
+  font-family: Anek Bangla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 8px;
+  gap: 8px;
+  margin: 0;
+  align-self: stretch;
+}
+
+.case1-button a {
+  color: #000;
+  font-family: Anek Bangla;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.6px;
+  text-decoration: none;
+  border: 2px solid #000;
+  padding: 0px 8px;
+}
+
+.case1-img {
+  height: 100vh;
+  width: 60%;
+}
+
+.case1-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.mig-titel {
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  align-self: stretch;
+}
+
+.mig-titel-span {
+  color: #ff8a00;
+  font-family: Anek Bangla;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  align-self: stretch;
+}
+
+.mig-p {
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  align-self: stretch;
+}
+
+.mig-text {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.mig-img {
+  height: 80vh;
+  width: 60%;
+}
+
+.mig-img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.mig-sida {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  gap: 121px;
+}
+
+.mig-sida-wrapper {
+  background-color: #333333;
+  height: 100vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+}

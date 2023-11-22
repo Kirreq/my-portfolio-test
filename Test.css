@@ -51,16 +51,13 @@ a {
   display: flex;
   align-items: center;
   gap: 25px;
-  margin: 0px 169px;
+  margin: 0vh 10vw;
   height: 100vh;
 }
 
 .hem-sida h2 {
   width: 60%;
   padding: 8px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
   color: #fff;
   font-family: Anek Bangla;
   font-size: 72px;
@@ -88,8 +85,6 @@ a {
   line-height: 28px;
   width: 40%;
   padding: 8px;
-  align-items: flex-start;
-  gap: 8px;
   margin: 0;
 }
 
@@ -101,16 +96,15 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
-  margin-left: 15vw;
 }
 
 .case1-titel-text-button {
   display: flex;
-  width: 40%;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  padding: 10vw;
 }
 
 .case1-p-button {
@@ -122,7 +116,6 @@ a {
 }
 
 .case1-titel {
-  align-self: stretch;
   color: #333333;
   font-family: Anek Bangla;
   font-size: 72px;
@@ -139,10 +132,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  padding: 8px;
-  gap: 8px;
   margin: 0;
-  align-self: stretch;
 }
 
 .case1-button a {
@@ -159,7 +149,7 @@ a {
 
 .case1-img {
   height: 100vh;
-  width: 60%;
+  width: 50%;
 }
 
 .case1-img img {
@@ -175,7 +165,6 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  align-self: stretch;
 }
 
 .mig-titel-span {
@@ -185,7 +174,6 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  align-self: stretch;
 }
 
 .mig-p {
@@ -195,20 +183,20 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  align-self: stretch;
 }
 
 .mig-text {
   display: flex;
-  width: 40%;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  padding: 10vw;
 }
 
 .mig-img {
-  height: 80vh;
-  width: 60%;
+  height: 100vh;
+  width: 50%;
 }
 
 .mig-img img {
@@ -222,12 +210,107 @@ a {
   width: 100%;
   height: 100%;
   align-items: center;
-  gap: 121px;
 }
 
 .mig-sida-wrapper {
   background-color: #333333;
   height: 100vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+}
+
+@media screen and (max-width: 600px) {
+  .header-wrapper {
+    width: 100%;
+    padding: 32px;
+  }
+
+  .text-right h2,
+  a {
+    font-size: 16px;
+  }
+
+  .titel {
+    font-size: 20px;
+  }
+
+  .text-right {
+    width: 200px;
+    gap: 8px;
+  }
+
+  .hem-sida {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .hem-sida h2 {
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0;
+  }
+
+  .portfolio-span {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .hem-sida p {
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .case1-titel {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .case1-button a {
+    font-size: 19px;
+    line-height: 26.6px;
+    padding: 0px 8px;
+  }
+
+  .case1-textleft-img {
+    flex-direction: column;
+    height: 100vh;
+    gap: 50px;
+  }
+
+  .case1-img {
+    height: 70%;
+    width: 100vw;
+  }
+
+  .case1-titel-text-button {
+    width: 70vw;
+    height: 30%;
+    padding: 100px 0px 0px 0px;
+  }
+
+  .mig-titel {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .mig-titel-span {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .mig-sida {
+    flex-direction: column;
+  }
+
+  .mig-img {
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .mig-text {
+    width: 100vw;
+  }
 }

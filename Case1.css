@@ -9,7 +9,7 @@ body {
 
 .header-wrapper {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   padding: 16px 72px;
 }
 
@@ -47,65 +47,209 @@ a {
   gap: 32px;
 }
 
-.mig-titel {
+.incase2-titel {
   color: #fff;
   font-family: Anek Bangla;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  align-self: stretch;
 }
 
-.mig-titel-span {
+.incase2-titel-span {
   color: #ff8a00;
   font-family: Anek Bangla;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
-  align-self: stretch;
 }
 
-.mig-p {
+.incase2-p {
   color: #fff;
   font-family: Anek Bangla;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  align-self: stretch;
 }
 
-.mig-text {
+.incase2-text {
   display: flex;
-  width: 40%;
+  width: 50%;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  padding: 10vw;
 }
 
-.mig-img {
+.incase2-img {
   height: 100vh;
-  width: 60%;
+  width: 50%;
 }
 
-.mig-img img {
+.incase2-img img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
-.mig-sida {
+.incase2-page {
   display: flex;
   width: 100%;
   height: 100%;
   align-items: center;
-  gap: 121px;
 }
 
-.mig-sida-wrapper {
+.incase2-wrapper {
   background-color: #333333;
   height: 100vh;
-  padding-right: 10vh;
+}
+
+.aboutprotech-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  height: 100vh;
+  justify-content: center;
+}
+
+.aboutprotech-titel {
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.aboutprotech-titel-span {
+  color: #ff8a00;
+  font-family: Anek Bangla;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.aboutprotech-img-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90vw;
+}
+
+.aboutprotech-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutprotech-img {
+  height: auto;
+  width: 500px;
+}
+
+.aboutprotech-img img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutprotech-imgtext {
+  width: 500px;
+}
+
+.aboutprotech-imgtext h2 {
+  color: #ff8a00;
+  font-family: Anek Bangla;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin: 0%;
+}
+
+.aboutprotech-imgtext p {
+  color: #fff;
+  font-family: Anek Bangla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0%;
+}
+
+@media screen and (max-width: 600px) {
+  .header-wrapper {
+    padding: 32px;
+  }
+
+  .text-right h2,
+  a {
+    font-size: 16px;
+  }
+
+  .titel {
+    font-size: 20px;
+  }
+
+  .text-right {
+    width: 200px;
+    gap: 8px;
+  }
+
+  .incase2-p,
+  .aboutprotech-imgtext p {
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+
+  .incase2-page {
+    flex-direction: column;
+  }
+
+  .incase2-img {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .incase2-text {
+    width: 100vw;
+  }
+
+  .aboutprotech-img-wrapper {
+    flex-direction: column;
+    width: 100%;
+    gap: 10vh;
+  }
+
+  .aboutprotech-page {
+    height: 100%;
+    align-items: flex-start;
+    padding: 10vh 10vw;
+  }
+
+  .aboutprotech-img {
+    width: 100%;
+  }
+
+  .aboutprotech-imgtext {
+    width: 100%;
+  }
+
+  .aboutprotech-titel,
+  .aboutprotech-titel-span,
+  .aboutprotech-imgtext h2,
+  .incase2-titel,
+  .incase2-titel-span {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  .aboutprotech-img-text {
+    gap: 2vh;
+  }
 }

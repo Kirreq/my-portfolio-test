@@ -145,6 +145,12 @@ a {
   text-decoration: none;
   border: 2px solid #000;
   padding: 0px 8px;
+  transition: all 300ms linear 100ms;
+}
+
+.case1-button a:hover {
+  color: white;
+  background-color: black;
 }
 
 .case1-img {
